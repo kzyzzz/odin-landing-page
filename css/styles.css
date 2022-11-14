@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 7pt 23pt;
+    border-radius: 6pt;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.container {
+
+}
+
+.dark-bg {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10pt 0 10pt 0;
+}
+
+.header,
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.header-nav-bar-menu {
+    display: flex;
+}
+
+.header-nav-bar-menu li {
+    list-style: none;
+    padding: 10pt 0 10pt 20pt;
+}
+
+.hero {
+    padding: 90pt 0 90pt 0;
+    gap: 30pt;
+}
+
+.hero-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-summary-main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-summary-secondary,
+.header-nav-bar-menu {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-summary button {
+    margin-top: 10pt;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    background-color: grey;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.information-header {
+    padding: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-blocks {
+    display: flex;
+    flex-direction: row;
+    margin: 10pt;
+    justify-content: space-around;
+}
+
+.infoblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10pt;
+    flex-basis: 0%;
+}
+
+.infoblock-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10pt;
+    margin-bottom: 5pt;
+}
+
+.infoblock-description {
+    color: #1F2937;
+    text-align: center;
+}
+
+.light-bg {
+    background-color: #E5E7EB;
+    width: 100%;
+    align-items: center;
+}
+
+.quote {
+    margin: 50pt;
+    width: 70%;
+}

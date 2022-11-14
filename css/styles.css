@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,100&display=swap');
+
 * {
     margin: 0;
-    font-family: 'Roboto', arial;
+    font-family: 'Roboto';
 }
 
 button {
@@ -10,7 +12,7 @@ button {
     padding: 7pt 23pt;
     border-radius: 6pt;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 .container {
@@ -36,7 +38,7 @@ button {
 
 .header-logo {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     align-self: center;
 }
 
@@ -62,7 +64,7 @@ button {
 
 .hero-summary-main {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .hero-summary-secondary,
@@ -107,7 +109,7 @@ button {
 .information-blocks {
     display: flex;
     flex-direction: row;
-    margin: 10pt;
+    margin-bottom: 60pt;
     justify-content: space-around;
 }
 
@@ -136,9 +138,61 @@ button {
     background-color: #E5E7EB;
     width: 100%;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.quote {
+.quote,
+.quote-signature {
+    margin: 50pt 50pt 0 50pt;
+    width: 50%;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-signature {
+    margin: 10pt 0 50pt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: right;
+    width: 45%;
+}
+
+.call-form {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 30pt 50pt;
     margin: 50pt;
-    width: 70%;
+    border-radius: 10pt;
+    width: 50%;
+}
+
+.call-form-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-form-text-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call-form-text-subtext { 
+    font-size: 14px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.call-form-button button {
+    border: 2px solid #F9FAF8;
+    padding: 5pt 20pt;
+}
+
+.footer {
+    padding: 10pt;
 }
